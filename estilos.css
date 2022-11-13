@@ -257,31 +257,25 @@ input{
   /* ------------------------------------------------------------------------------
                            MEDIA KERIES
     ---------------------------------------------------------------------- */
+     @media(max-width: 800px){
+      .cabecera{
+        justify-content: space-evenly;
+      }
 
-    @media(max-width: 550px){
-        .navegacion{
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
+      .navegacion{
+        
+      }
 
-        .lista{
-            display: none;
-        }
-
-    }
+      .lista{
+        display: flex;
+        justify-content: space-evenly;
+        margin: auto;
+      }
+     }
 
 
-    @media(max-width: 1500px){
-        .mas-pedidos{
-            grid-template-columns: 1fr;
-            grid-gap: 20px;
-        }
 
-        .esmalte-color{
-            margin: auto;
-        }
-    }
+
 
     
 
