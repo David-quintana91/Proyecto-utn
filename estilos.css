@@ -58,9 +58,8 @@ body{
 }
 
 .lista li{
-   padding: 5px;
-   border: 2px solid cornflowerblue;
-   border-radius: 1px;
+  font-size: 10px;
+   
 }
 
 .lista li a{
@@ -262,14 +261,23 @@ input{
         justify-content: space-evenly;
       }
 
-      .navegacion{
-        
-      }
 
       .lista{
         display: flex;
         justify-content: space-evenly;
+        margin-left: 0px;
+      }
+
+      .seccion-trabajos{
         margin: auto;
+      }
+
+      .trabajos li{
+        margin: auto;
+      }
+
+      .mas-pedidos{
+        grid-template-columns: auto;
       }
      }
 
