@@ -263,6 +263,14 @@ input{
             grid-template-columns: 1fr;
             grid-gap: 20px;
         }
+
+        .esmalte-color{
+            margin: auto;
+        }
+    }
+
+    @media(max-width: 550px){
+
     }
 
 
