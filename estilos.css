@@ -180,7 +180,7 @@ label{
     max-width: 500px;
     margin: auto;
     padding: 10px;
-    border: none;
+    border: 1px solid black
 }
 
 .horario h3{
@@ -200,11 +200,69 @@ input{
     ------------------------------------------------------------------------------------------------------ */
 
 .quiensoy{
+    background-color :rgb(221, 201, 240);
     max-width: 1000px;
     margin: auto;
     padding: 10px;
  }
 
-  
+ .quiensoy h1{
+    display: flex;
+    justify-content: center;
+    color: blue;
+    transition: 5s;
+ }
+
+ .quiensoy h1:hover{
+    filter: grayscale(75%);
+    transition: filter 5s;
+ }
+
+ .imagennosotros1{
+    display: block;
+    margin-left: 100px;
+    transition: transform 5s;
+}
+
+ .imagennosotros1:hover{
+    filter: hue-rotate(100deg);
+    transition: filter 10s;
+    transform: rotate(180deg);
+    transition: transform 5s;
+    }
+
+ 
+
+ .parrafonosotros p{
+    font-size: 20px;
+    transition: 5s;
+ }
+
+ .parrafonosotros p:hover{
+    transform: translate(150px);
+    transition: 5s;
+ }
+
+ .quiensoy a{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    transition: 2s;
+}
+  .quiensoy a:hover{
+    transform: scale(1.5);
+    transition: 2s;
+  }
+
+  /* ------------------------------------------------------------------------------
+                           MEDIA KERIES
+    ---------------------------------------------------------------------- */
+
+    @media(max-width: 770px){
+        .mas-pedidos{
+            grid-template-columns: 1fr;
+            grid-gap: 20px;
+        }
+    }
 
 

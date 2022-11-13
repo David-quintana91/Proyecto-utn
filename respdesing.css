@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color: burlywood;
+    }
+
+/* ------------------NAVEGACION------------------- */
+.navegacion{
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+}
+
+.menu-hamb{
+    width: 55px;
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+
+}
+
+.linea-hamb{
+    background-color: black;
+    width: 50px;
+    height: 5px;
+    border-radius: 8px;
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    background-color: chartreuse;
+    padding: 5px;
+}
+
+/* ------------------SECCION TARJETAS------------------- */
+.contenedor-tarjetas{
+    margin: 60px 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+
+.tarjeta{
+    background-color: cadetblue;
+    border: 2px solid black;
+    width: 200px;
+    
+}
+
+/* ----------------- SECTOR MEDIA QUERIES---------------- */
+@media(max-width:768px ){
+    .contenedor-tarjetas{
+        grid-template-columns: 1fr;
+        grid-gap: 40px;
+    }
+    .tarjeta{
+        margin: auto;
+    }
+}
+
+@media(max-width:590px ){
+    .menu-hamb{
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .menu{
+        display: none;
+    }
+}
