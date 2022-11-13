@@ -258,7 +258,21 @@ input{
                            MEDIA KERIES
     ---------------------------------------------------------------------- */
 
-    @media(max-width: 770px){
+    @media(max-width: 550px){
+        .navegacion{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+
+        .lista{
+            display: none;
+        }
+
+    }
+
+
+    @media(max-width: 1500px){
         .mas-pedidos{
             grid-template-columns: 1fr;
             grid-gap: 20px;
@@ -269,8 +283,6 @@ input{
         }
     }
 
-    @media(max-width: 550px){
-
-    }
+    
 
 
