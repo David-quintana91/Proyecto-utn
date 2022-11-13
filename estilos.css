@@ -199,14 +199,10 @@ input{
                                     NOSOTROS HTML
     ------------------------------------------------------------------------------------------------------ */
 
-
-body{
+.quiensoy{
     max-width: 1000px;
     margin: auto;
- }
-
- .quiensoy{
-      padding: 10px;
+    padding: 10px;
  }
 
   
