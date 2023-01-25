@@ -254,6 +254,171 @@ input{
     transition: 2s;
   }
 
+
+  /* ---------------------------------------------------------------------------------------------
+                           CARRITO DE COMPRAS
+  ---------------------------------------------------------------------------------------*/
+
+.contenido-grid{
+    background-color: rgb(224, 169, 226);
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+   
+}
+
+.contenido-grid,
+.producto-1{
+    max-width: 1700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
+    margin-bottom: 10px;
+    row-gap: 10px;
+}
+
+.contenido-grid,
+.producto-1,
+.contenido{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.contenido-grid,
+.producto-1,
+.contenido,
+.p{
+    font-size: 100pt;
+}
+
+.contenido-grid,
+.producto-1,
+.contenido,
+.addcar{
+    cursor: pointer;
+    padding: 10px;
+    font-size: 20pt;
+
+}
+
+
+
+
+.contenido-grid,
+.producto-2{
+    max-width: 1700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
+    margin-bottom: 10px;
+    row-gap: 10px;
+}
+
+.contenido-grid,
+.producto-2,
+.contenido{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.contenido-grid,
+.producto-3{
+    max-width: 1700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
+    margin-bottom: 10px;
+    row-gap: 10px;
+}
+
+.contenido-grid,
+.producto-3,
+.contenido{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.contenido-grid,
+.producto-4{
+    max-width: 1700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
+    margin-bottom: 10px;
+    row-gap: 10px;
+}
+
+.contenido-grid,
+.producto-4,
+.contenido{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+
+.contenido-grid,
+.producto-5{
+    max-width: 1700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
+    margin-bottom: 10px;
+    row-gap: 10px;
+}
+
+.contenido-grid,
+.producto-5,
+.contenido{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.contenido-grid,
+.producto-6{
+    max-width: 1700px;
+    margin-right: auto;
+    margin-left: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border: 2px solid black;
+    margin-bottom: 10px;
+    row-gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   /* ------------------------------------------------------------------------------
                            MEDIA KERIES
     ---------------------------------------------------------------------- */
