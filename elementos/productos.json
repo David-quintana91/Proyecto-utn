@@ -1,7 +1,41 @@
 [
     {
-        "nombre": "soft gel",
+        "nombre": "Savage",
         "precio": 2500,
-        "img": "../imagenes.jpg/savage.jpeg"
+        "imgA": "../imagenes.jpg/savage.jpeg"
+    },
+
+    {
+        "nombre": "Moonlight",
+        "precio": 2500,
+        "imgA": "../imagenes.jpg/violetas-sarpadas.jpeg"
+    },
+
+    {
+        "nombre": "#Tendencia",
+        "precio": 2500,
+        "imgA": "../imagenes.jpg/carita.jpeg"
+    },
+
+    {
+        "nombre": "Sunset",
+        "precio": 2500,
+        "imgA": "../imagenes.jpg/uñas-naranja2.jpg"
+    },
+
+    {
+        "nombre": "Abstractas",
+        "precio": 2500,
+        "imgA": "../imagenes.jpg/violetas-verdes.jpeg"
+    },
+
+    {
+        "nombre": "Pinky",
+        "precio": 1500,
+        "imgA": "../imagenes.jpg/sakura-chetas.jpeg"
     }
+
+   
+
+
 ]
