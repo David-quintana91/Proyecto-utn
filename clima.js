@@ -6,8 +6,17 @@ fetch(url).then(solicitud =>{
         console.log("funciono!");
 
         solicitud.json().then(clima => {
-            console.log(clima)
+            console.log(clima);
+
+            ciudad.innerHTML = clima.name;
+
+            var temperatura = clima.main.temp;
+            var climaDescripcion = clima.weather[0].description;
+
+            descripcion.innerHTML = "la temperatura es de " + temperatura + "°C, con " + climaDescripcion;
         });
+
+
 
 
 
